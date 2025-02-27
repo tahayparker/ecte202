@@ -25,4 +25,4 @@ for i in range(1, len(x)):
         break
 
 # plt.show()
-# plt.savefig("ECTE202 Lab 3-2.png", format='png', dpi=2500, bbox_inches='tight')
+plt.savefig("ECTE202 Lab 3-2.png", format='png', dpi=2500, bbox_inches='tight')

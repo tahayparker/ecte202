@@ -7,7 +7,4 @@ S1 = ilaplace(x1, s, t);
 S2 = ilaplace(x2, s, t);
 S3 = ilaplace(x3, s, t);
 
-disp("Inverse Laplace of functions is: ");
-fprintf("Inverse Laplace of %s is %s\n", x1, S1);
-fprintf("Inverse Laplace of %s is %s\n", x2, S2);
-fprintf("Inverse Laplace of %s is %s\n", x3, S3);
+disp(table([x1; x2; x3], [S1; S2; S3], 'VariableNames', {'Function', 'Inverse Laplace Transform'}));

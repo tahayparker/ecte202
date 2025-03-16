@@ -11,4 +11,3 @@ den3 = [1 3 1];
 [r1, p1, k1] = residue(num1,den1)
 [r2, p2, k2] = residue(num2,den2)
 [r3, p3, k3] = residue(num3,den3)
-
